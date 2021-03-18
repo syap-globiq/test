@@ -1,0 +1,4 @@
+dataSource:"db:/example_data/customers",
+onValidateMethodID:"DFFF2BFA-96C7-4C03-B4CE-9842B9035C31",
+typeid:39,
+uuid:"A99B4185-F8A7-43A8-BDD3-B7E56CBAEE63"

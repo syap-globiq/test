@@ -1,0 +1,17 @@
+customProperties:"formComponent:false,\
+useCssPosition:true",
+dataSource:"db:/coffee_db/menu",
+encapsulation:108,
+items:[
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"FB3F400E-27EA-4196-8389-A85B622E4DC6"
+}
+],
+name:"menuItemsForm",
+navigatorID:"-1",
+showInMenu:true,
+typeid:3,
+uuid:"A0D7D932-9ABA-4690-8A9F-B9412C099DA3"

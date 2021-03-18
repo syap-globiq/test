@@ -1,0 +1,6 @@
+dataSource:"db:/svy_security/roles",
+onAfterDeleteMethodID:"AC038DA1-1E18-4116-8922-E2B7FD079374",
+onAfterInsertMethodID:"17106233-8761-463C-ABDB-6F8ED312DFA5",
+onAfterUpdateMethodID:"90523996-D26E-4296-B97E-8B911FE4A4C7",
+typeid:39,
+uuid:"F736E05C-895D-4CDD-98AF-EF6B524FAB58"

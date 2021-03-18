@@ -1,0 +1,13 @@
+encapsulation:44,
+items:[
+{
+height:100,
+partType:5,
+typeid:19,
+uuid:"FD6F090D-67BA-4434-926B-165CFCDEE763"
+}
+],
+name:"AbstractModuleDef",
+navigatorID:"-1",
+typeid:3,
+uuid:"14E1D5B3-5DA2-40A5-BCF1-FA15EE0D714B"

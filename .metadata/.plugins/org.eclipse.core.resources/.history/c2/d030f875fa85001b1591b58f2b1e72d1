@@ -1,0 +1,42 @@
+
+/**
+ * @type {String}
+ *
+ * @properties={typeid:35,uuid:"5B8280B4-7AE0-46BC-9E6D-71DA251DDD1B"}
+ */
+var validationMarkers;
+/**
+ * Handle changed data, return false if the value should not be accepted. In NGClient you can return also a (i18n) string, instead of false, which will be shown as a tooltip.
+ *
+ * @param oldValue old value
+ * @param newValue new value
+ * @param {JSEvent} event the event that triggered the action
+ *
+ * @return {Boolean}
+ *
+ * @protected
+ *
+ * @properties={typeid:24,uuid:"C60073DE-3B57-41E5-8B01-F29FE124A933"}
+ */
+function onElementDataChange(oldValue, newValue, event) {
+	// TODO Auto-generated method stub
+	validate();
+	return true
+}
+
+/**
+ * @properties={typeid:24,uuid:"D2B345C4-376C-4219-914E-0DB72E5399D4"}
+ */
+function validate(){
+	validationMarkers = [];
+	var validationHandler = foundset['validate'];
+	if (validationHandler) {
+		validationMarkers = validationHandler():
+	}
+	updateUI();
+	return validationMarkers.length > 0;
+}
+
+function updateUI(){
+	
+}

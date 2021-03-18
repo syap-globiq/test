@@ -1,0 +1,4 @@
+SHOW_PROGRESS_ON_STARTUP=true
+USE_WINDOW_WORKING_SET_BY_DEFAULT=true
+eclipse.preferences.version=1
+showIntro=false

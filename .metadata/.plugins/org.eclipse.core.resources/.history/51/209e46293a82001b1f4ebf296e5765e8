@@ -1,0 +1,17 @@
+customProperties:"formComponent:false,\
+useCssPosition:true",
+dataSource:"db:/clinic_db/patient",
+encapsulation:108,
+items:[
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"20B93426-FBDB-4472-B7F3-8AE2FDD8C3F4"
+}
+],
+name:"progressForm",
+navigatorID:"-1",
+showInMenu:true,
+typeid:3,
+uuid:"E860B586-25C0-472D-9844-96E79A7A16E0"

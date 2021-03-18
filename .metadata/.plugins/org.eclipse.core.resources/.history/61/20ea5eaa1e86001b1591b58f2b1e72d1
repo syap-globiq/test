@@ -1,0 +1,51 @@
+/**
+ * TODO generated, please specify type and doc for the params
+ * @param {RuntimeTextField} [element] validate only the dataprovider linked to the given element when set
+ * @protected 
+ * @return {Array<JSRecordMarker>} It will return an array of JSRecordMarker when the record had validation problems
+ * @properties={typeid:24,uuid:"17318A3C-F3AE-4ABC-8E63-5E9D7C196D7A"}
+ */
+function validate(element) {
+	var dataprovider = element ? element.getDataProviderID() : null;
+	// validate the edited records
+	var markers = scopes.svyValidationUtils.validateEditedRecords(null, LOGGINGLEVEL.ERROR, dataprovider);
+	if (dataprovider) {
+		// filter markers having element's dataprovider
+		markers = scopes.svyValidationUtils.getMarkersWithDataprovider(markers, dataprovider);
+	}
+	// invalid if any error marker
+	var isValid = markers.length ? false : true;
+	
+	if (element) {		
+		if (isValid) {
+			// clear validation error, if any
+			clearValidationError(element);
+		} else {
+			// show validation error	
+			updateValidationError(markers[0], element);
+		}
+	} else {
+		
+		if (isValid) {
+			// clear all validation errors
+			clearValidationErrors();
+		} else {
+			// show all validation errors
+			updateValidationErrors(markers);
+		}
+	}
+
+	return markers;
+}
+
+/**
+ * @properties={typeid:24,uuid:"669B8091-6A2B-4248-85B2-8020C3C8A5F4"}
+ */
+function clearValidationErrors() {
+
+	// clear error from all elements.
+	for (var i = 0; i < elements.allnames.length; i++) {
+		var element = elements[elements.allnames[i]];
+		clearValidationError(element);
+	}
+}

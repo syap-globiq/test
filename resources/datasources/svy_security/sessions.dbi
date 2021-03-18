@@ -1,0 +1,98 @@
+columns:[
+{
+allowNull:false,
+autoEnterSubType:3,
+autoEnterType:2,
+creationOrderIndex:0,
+dataType:12,
+flags:5,
+length:36,
+name:"id",
+titleText:"ID"
+},
+{
+allowNull:true,
+creationOrderIndex:3,
+dataType:12,
+length:50,
+name:"ip_address",
+titleText:"IP Address"
+},
+{
+allowNull:true,
+autoEnterSubType:0,
+autoEnterType:1,
+creationOrderIndex:5,
+dataType:93,
+description:"@deprecated use is_active calculation",
+name:"last_client_ping",
+titleText:"Last Activity"
+},
+{
+allowNull:true,
+creationOrderIndex:8,
+dataType:12,
+length:36,
+name:"servoy_client_id",
+titleText:"Servoy Client ID"
+},
+{
+allowNull:true,
+autoEnterType:3,
+creationOrderIndex:9,
+dataType:4,
+defaultValue:"0",
+description:"the duration of the session in milliseconds",
+name:"session_duration",
+titleText:"Session Duration (ms)"
+},
+{
+allowNull:true,
+creationOrderIndex:2,
+dataType:93,
+name:"session_end",
+titleText:"Session End"
+},
+{
+allowNull:true,
+autoEnterSubType:8,
+autoEnterType:1,
+creationOrderIndex:1,
+dataType:93,
+name:"session_start",
+titleText:"Session Start"
+},
+{
+allowNull:true,
+creationOrderIndex:10,
+dataType:12,
+length:50,
+name:"solution_name"
+},
+{
+allowNull:true,
+creationOrderIndex:7,
+dataType:12,
+length:50,
+name:"tenant_name",
+titleText:"Tenant Name"
+},
+{
+allowNull:true,
+creationOrderIndex:4,
+dataType:12,
+length:256,
+name:"user_agent_string",
+titleText:"User Agent"
+},
+{
+allowNull:true,
+creationOrderIndex:6,
+dataType:12,
+length:50,
+name:"user_name",
+titleText:"User Name"
+}
+],
+name:"sessions",
+tableType:0

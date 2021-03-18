@@ -1,0 +1,61 @@
+customProperties:"formComponent:false,\
+useCssPosition:true",
+extendsID:"C1A96FE4-9EB4-4074-B1B3-772A54C1E6F9",
+items:[
+{
+extendsID:"97F51E23-1816-4CAF-B26E-68724DEC6BD1",
+text:"Revenue",
+typeid:7,
+uuid:"402933B0-93AA-43B0-A0D4-AE16FA148A31"
+},
+{
+cssPosition:"211,-1,-1,121,16,18",
+extendsID:"A336F1A0-F07E-417C-82DC-AD90989FE254",
+json:{
+cssPosition:{
+bottom:"-1",
+height:"18",
+left:"121",
+right:"-1",
+top:"211",
+width:"16"
+}
+},
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"61472DBA-B01B-43D1-88FD-BB321C73AB59"
+},
+{
+extendsID:"ED8C746F-867A-4EDE-8E1B-86DF99B832AC",
+json:{
+faclass:"fas fa-hand-holding-usd",
+imageStyleClass:"fas fa-hand-holding-usd fa-3x"
+},
+typeName:"bootstrapcomponents-label",
+typeid:47,
+uuid:"8340326E-0989-4E87-B96B-F0B350D2E81B"
+},
+{
+extendsID:"EF8A544A-E6ED-40D2-82E3-CC96E44EBD45",
+text:"vs Last Year",
+typeid:7,
+uuid:"8714A686-BB91-44FE-A89B-D36A7AABCB0A"
+},
+{
+displaysTags:true,
+extendsID:"70D7E80C-8CCA-481A-BB05-01C853731C5E",
+format:"¤ ##,###.00",
+typeid:7,
+uuid:"A296BDFD-A003-468B-99FE-C0D9D9B864EB"
+},
+{
+extendsID:"D8E93EDD-D81B-4DA6-974B-8E7858D68905",
+showClick:false,
+typeid:7,
+uuid:"BEB4D4C2-18A6-4F9A-AE52-220DC55D6FDB"
+}
+],
+name:"chartRevenue",
+styleClass:"bg-secondary box-shadow",
+typeid:3,
+uuid:"7B9440C3-63E2-4C3F-98D5-07459B396BD9"

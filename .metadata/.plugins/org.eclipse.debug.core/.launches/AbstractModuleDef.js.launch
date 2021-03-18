@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.dltk.javascript.launching.JavaScriptLaunchConfigurationType">
+    <intAttribute key="dbpg_waiting_timeout" value="100000"/>
+    <stringAttribute key="mainScript" value="forms/AbstractModuleDef.js"/>
+    <stringAttribute key="nature" value="org.eclipse.dltk.javascript.core.nature"/>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/svyUtils"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="4"/>
+    </listAttribute>
+    <booleanAttribute key="org.eclipse.debug.ui.ATTR_LAUNCH_IN_BACKGROUND" value="true"/>
+    <stringAttribute key="project" value="svyUtils"/>
+</launchConfiguration>

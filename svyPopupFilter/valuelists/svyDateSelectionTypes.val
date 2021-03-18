@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"Specific Dates|%%scopes.svyPopupFilter.OPERATOR.EQUALS%%\
+Before than|%%scopes.svyPopupFilter.OPERATOR.SMALLER_EQUAL%%\
+Later than|%%scopes.svyPopupFilter.OPERATOR.GREATER_EQUAL%%\
+Between|%%scopes.svyPopupFilter.OPERATOR.BETWEEN%%",
+displayValueType:12,
+encapsulation:2,
+name:"svyDateSelectionTypes",
+realValueType:12,
+typeid:34,
+uuid:"AB7E5251-B609-47A3-BE05-B8F9302656C5"

@@ -1,0 +1,13 @@
+addEmptyValue:1,
+customProperties:"lazyLoading:false",
+dataProviderID1:"customerid",
+dataProviderID2:"companyname",
+dataSource:"db:/example_data/customers",
+displayValueType:12,
+name:"customers",
+realValueType:12,
+returnDataProviders:1,
+showDataProviders:2,
+typeid:34,
+uuid:"C78DE8DA-7789-45DA-915C-542BDD02312D",
+valueListType:1

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1615188350335_1" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1615188350344_2" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1615188741675_3" label="Servoy Active Solution" name="Servoy Active Solution">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/svyProperties" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/clinicInfoSys" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/servoy_resources" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/svyNavigation" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/svySecurity" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/svyUtils" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/svyNavigationUX" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/svySearch" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1615188348606_0" label="Window Working Set" name="Aggregate for window 1615188348606">
+<workingSet IMemento.internal.id="Servoy Active Solution"/>
+</workingSet>
+</workingSetManager>

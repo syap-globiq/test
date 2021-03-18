@@ -1,0 +1,63 @@
+
+/**
+ * @type {String}
+ *
+ * @properties={typeid:35,uuid:"7E7C155C-77FB-4CD1-8396-106E01F92491"}
+ */
+var patientFirstName = "";
+/**
+ * @type {String}
+ *
+ * @properties={typeid:35,uuid:"9401F803-84AB-4D5F-95EB-7B83D1D9D3E6"}
+ */
+var patientLastName = "";
+/**
+ * @type {String}
+ *
+ * @properties={typeid:35,uuid:"F16D2961-02BA-4E61-B80F-8FDB63A5A51C"}
+ */
+var patientGender = "male";
+/**
+ * @type {String}
+ *
+ * @properties={typeid:35,uuid:"4C21E5A1-5F53-4B63-9E6F-6F347ADF46FA"}
+ */
+var dateOfConsultation = "";
+/**
+ * @type {String}
+ *
+ * @properties={typeid:35,uuid:"846D3CE6-6C38-4595-BE84-FDF42BF243CD"}
+ */
+var patientDiagnosis = "";
+/**
+ * @param {JSEvent} event
+ *
+ * @protected
+ *
+ * @properties={typeid:24,uuid:"B7605E05-628F-452F-B5C4-648B58DF857B"}
+ */
+function onSave(event) {
+	// TODO Auto-generated method stub
+	var idx = foundset.newRecord(false); // add as last record
+	// foundset.newRecord(); // adds as first record
+	// foundset.newRecord(2); //adds as second record
+	if (idx >= 0) // returned index is -1 in case of failure
+	{
+		foundset.patient_firstname = patientFirstName;
+		foundset.patient_lastname = patientLastname;
+		databaseManager.startTransaction();
+		databaseManager.saveData(foundset);
+		databaseManager.commitTransaction();
+		var ok = plugins.dialogs.showInfoDialog("Message", "Menu saved successfully", "OK");
+		if (ok) {
+			menuName = "";
+			menuPrice = 0;
+			application.output("Menu item added");
+		}
+		
+		
+		// when adding at the end of the foundset, the returned index
+		// corresponds with the size of the foundset
+	}
+
+}

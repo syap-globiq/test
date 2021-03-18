@@ -1,0 +1,64 @@
+// this file is for over writing the theme properties of the default servoy properties file.
+@import 'servoy_theme.less?version=2020.6.0';
+
+/* START General */
+
+@main-color: #4880FF; // default:#E9720B
+
+@secondary-color: #9D0952; // default:#18222C
+
+@secondary-color-light: lighten(@secondary-color, 10%); // default:#464E56
+
+@secondary-color-dark: darken(@secondary-color, 15%); // default:#364453
+
+@font-family: Karla, Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif; // default:"Helvetica Neue", Helvetica, Arial, sans-serif
+
+@border-radius: 4px; // default:2px
+
+@text-color: #191B33; // default:#777777
+
+@field-border-radius: 4px; // default:2px
+/* START Sidenav */
+
+@sidenav-color: #FFF; // default:@secondary-color
+
+@sidenav-text-color: #92A2B5; // default:@secondary-color-inverse
+
+@sidenav-text-font-size: @font-size-h4; // default:@font-size-h6
+
+@sidenav-border-width: 0 1px 0 0; // default:1px
+
+@sidenav-border-color: @brand-tertiary; // default:@border-color
+
+@sidenav-selected-color: @sidenav-color; // default:@secondary-color-light
+
+@sidenav-selected-text-color: @main-color; // default:@sidenav-text-color
+/* START Navbar */
+/* START Tabs */
+/* START Windows */
+/* START Dialogs */
+/* START Tables */
+
+@table-bg: #FFF; // default:inherit
+
+@table-border-width: 0; // default:1px
+
+@table-border-radius: 1px; // default:0
+
+@table-header-bg: #FFF; // default:inherit
+
+@table-header-text-color: #BFC5D4; // default:@text-color
+
+@table-row-selected-bg-color: #F4F5F6; // default:@main-color
+
+@table-row-selected-text-color: @text-color; // default:@main-color-inverse
+/* START Breadcrumb specific style */
+/* START Brand colors */
+
+@brand-primary: @main-color; // default:#428bca
+
+@brand-tertiary: #f5f5f5; // default:#E8E6E6
+
+@brand-success: #76BB29; // default:#5cb85c
+/* START Validations */
+/* START Margins and Padding */

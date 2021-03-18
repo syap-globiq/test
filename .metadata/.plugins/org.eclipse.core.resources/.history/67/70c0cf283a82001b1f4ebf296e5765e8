@@ -1,0 +1,12 @@
+
+/**
+ * @param {JSEvent} event
+ *
+ * @protected
+ *
+ * @properties={typeid:24,uuid:"200CB18E-4349-419C-A9AA-2E648C98F42D"}
+ */
+function onAction(event) {
+	// TODO Auto-generated method stub
+
+}

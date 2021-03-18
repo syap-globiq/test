@@ -1,0 +1,17 @@
+customProperties:"formComponent:false,\
+useCssPosition:true",
+dataSource:"db:/clinic_db/patient",
+encapsulation:108,
+items:[
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"4EDAD282-7B0F-4653-ABC2-51841F0DAFCA"
+}
+],
+name:"patientTableView",
+navigatorID:"-1",
+showInMenu:true,
+typeid:3,
+uuid:"ADC7692F-97BA-4CA4-9A91-EF50A94C76E8"

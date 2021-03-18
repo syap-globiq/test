@@ -1,0 +1,9 @@
+foreignDataSource:"db:/svy_security/roles",
+items:[
+{foreignColumnName:"tenant_name",primaryDataProviderID:"tenant_name",typeid:23,uuid:"FF73F956-424E-437C-BBEF-9EACBD4B2683"}
+],
+joinType:1,
+name:"tenants_to_roles_ux",
+primaryDataSource:"db:/svy_security/tenants",
+typeid:22,
+uuid:"A666A101-B557-4B95-A99B-D759F30D47B0"

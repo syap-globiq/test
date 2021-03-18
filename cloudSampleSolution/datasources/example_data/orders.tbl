@@ -1,0 +1,4 @@
+dataSource:"db:/example_data/orders",
+onAfterCreateMethodID:"B30BE850-3667-45B8-ACCE-464B1494C12B",
+typeid:39,
+uuid:"6B402842-01BE-4BAF-B2C3-1489E554B01B"

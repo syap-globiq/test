@@ -1,0 +1,17 @@
+customProperties:"formComponent:false,\
+useCssPosition:true",
+dataSource:"db:/coffee_db/menu",
+encapsulation:108,
+items:[
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"7AF64DCA-7713-42F9-9FCA-CA9173C3C5C0"
+}
+],
+name:"menuTableView",
+navigatorID:"-1",
+showInMenu:true,
+typeid:3,
+uuid:"8DCD947B-53B1-47B0-B462-0A861AAEBB75"

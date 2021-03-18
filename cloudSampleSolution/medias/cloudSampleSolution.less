@@ -1,0 +1,157 @@
+// import of the custom servoy theme properties that will import the hidden servoy theme, this imported file is for customizing the default servoy theme properties 
+// @import 'theme-servoy.less';
+@import 'custom_servoy_theme_properties.less';
+
+// Add your custom less/css to this file you can use the same less properties that are specified in the above properties.less 
+
+@import 'customicons.css';
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Karla:100,300,400,500,700,900&display=swap');
+
+@text-foreground: #FFF;
+@brand-fourth: #F6B900;
+@brand-fifth: #F68500;
+@brand-sixth: #5C975D;
+
+label {
+	font-weight: normal;
+}
+
+.ag-table-header .ag-filter-icon {
+	display: none;
+}
+
+.btn-download-ide {
+	padding: 5px 20px !important;
+}
+
+.center-block {
+	display: block;
+	margin: auto;
+}
+
+.bts-calendar-inline .day.disabled {
+	opacity: 0.5;
+}
+
+.svy-combobox .ui-select-match > .form-control {
+	font-size: @field-font-size;
+}
+
+.svy-combobox .ui-select-match-text {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.toast {
+	white-space: pre;
+}
+
+/**************************** GENERIC HELPERS ***************************/
+
+/* Foreground text */
+
+.text-foreground {
+	color: @text-foreground;
+}
+
+/* Bg Secondary*/
+
+.bg-secondary {
+	background-color: @secondary-color;
+	color: @secondary-color-inverse;
+}
+
+a.bg-secondary:hover {
+	background-color: @secondary-color-light;
+	color: @secondary-color-inverse;
+}
+
+/* Bg Fourth */
+
+.bg-fourth {
+	background-color: @brand-fourth;
+	color: @text-foreground;
+}
+
+a.bg-fourth:hover {
+	background-color: @brand-fourth;
+	color: @text-foreground;
+}
+
+/* Bg Fifth */
+
+.bg-fifth {
+	background-color: @brand-fifth;
+	color: @text-foreground;
+}
+
+a.bg-fifth:hover {
+	background-color: @brand-fifth;
+	color: @text-foreground;
+}
+
+/* Bg Sixth */
+
+.bg-sixth {
+	background-color: @brand-sixth;
+	color: @text-foreground;
+}
+
+a.bg-sixth:hover {
+	background-color: @brand-sixth;
+	color: @text-foreground;
+}
+
+/* Box-shadow */
+
+.box-shadow {			
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+}
+
+/**************************** DASHBOARD ***************************/
+
+.tile-title {
+	font-size: 45px;
+	letter-spacing: -1px;
+}
+
+/******************* Grid Status Labels ***********************/
+
+/* Combine Theme Classes together */
+.btn-label {
+	display: inline-block;
+	line-height: 20px;
+	padding: 3px 20px;
+	margin: auto;
+	min-width: 70px;
+	.text-center();
+	.border();
+	.border-radius();
+	.text-uppercase();
+	.h5();
+}
+
+.btn-label-success {
+	.btn-label();
+	.border-success();
+	.text-success();
+}
+
+.btn-label-info {
+	.btn-label();
+	.border-info();
+	.text-info();
+}
+
+.btn-label-warning {
+	.btn-label();
+	.border-warning();
+	.text-warning();
+}
+
+.btn-label-danger {
+	.btn-label();
+	.border-danger();
+	.text-danger();
+}

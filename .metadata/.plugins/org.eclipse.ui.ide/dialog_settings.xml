@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="com.servoy.eclipse.feature:2020.12.1.3623"/>
+		<item value="org.eclipse.draw2d:3.10.100.201606061308"/>
+		<item value="org.eclipse.egit:5.8.1.202007141445-r"/>
+		<item value="org.eclipse.emf.common.ui:2.17.0.v20190507-0402"/>
+		<item value="org.eclipse.emf.common:2.20.0.v20200822-0801"/>
+		<item value="org.eclipse.emf.ecore:2.23.0.v20200630-0516"/>
+		<item value="org.eclipse.emf.edit.ui:2.19.0.v20200205-0529"/>
+		<item value="org.eclipse.emf.edit:2.16.0.v20190920-0401"/>
+		<item value="org.eclipse.gef:3.11.0.201606061308"/>
+		<item value="org.eclipse.help:2.3.300.v20200902-1800"/>
+		<item value="org.eclipse.jdt:3.18.500.v20200902-1800"/>
+		<item value="org.eclipse.jgit.gpg.bc:5.8.1.202007141445-r"/>
+		<item value="org.eclipse.jgit.http.apache:5.8.1.202007141445-r"/>
+		<item value="org.eclipse.jgit.lfs:5.8.1.202007141445-r"/>
+		<item value="org.eclipse.jgit.ssh.apache:5.8.1.202007141445-r"/>
+		<item value="org.eclipse.jgit.ssh.jsch:5.8.1.202007141445-r"/>
+		<item value="org.eclipse.jgit:5.8.1.202007141445-r"/>
+		<item value="org.eclipse.platform:4.17.0.v20200902-1800"/>
+		<item value="org.eclipse.rcp:4.17.0.v20200902-1800"/>
+	</list>
+</section>

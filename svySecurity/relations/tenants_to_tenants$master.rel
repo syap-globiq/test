@@ -1,0 +1,10 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/svy_security/tenants",
+items:[
+{foreignColumnName:"tenant_name",primaryDataProviderID:"master_tenant_name",typeid:23,uuid:"B11335C7-ED5F-4A64-9D13-C474DA9A68D0"}
+],
+joinType:1,
+name:"tenants_to_tenants$master",
+primaryDataSource:"db:/svy_security/tenants",
+typeid:22,
+uuid:"DBEDEC70-B552-43BA-949C-00E2780F6EAB"

@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+encapsulation:2,
+foreignDataSource:"db:/svy_security/users",
+items:[
+{foreignColumnName:"user_name",primaryDataProviderID:"scopes.svySecurity.activeUserName",typeid:23,uuid:"702F2A6F-0DE7-4043-B6DB-897C59BB985E"}
+],
+joinType:1,
+name:"active_user",
+primaryDataSource:"db:/svy_security/users",
+typeid:22,
+uuid:"DF679185-48F3-44DA-9DDA-D41FCE08D65F"

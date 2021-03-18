@@ -1,0 +1,10 @@
+encapsulation:2,
+foreignDataSource:"db:/svy_security/sessions",
+items:[
+{foreignColumnName:"id",primaryDataProviderID:"scopes.svySecurity.sessionID",typeid:23,uuid:"04000B2E-10ED-4B2C-AE58-0D8B27A01B60"}
+],
+joinType:1,
+name:"active_session",
+primaryDataSource:"db:/svy_security/sessions",
+typeid:22,
+uuid:"A06FA843-2076-4F99-9CAF-7B7CA8A71E59"

@@ -1,0 +1,37 @@
+customProperties:"formComponent:false,\
+useCssPosition:true",
+encapsulation:44,
+items:[
+{
+cssPosition:"89,0,-1,4,182,33",
+horizontalAlignment:0,
+styleClass:"h3 text-foreground text-uppercase",
+text:"SubTitle",
+transparent:true,
+typeid:7,
+uuid:"743206C2-A000-4760-955C-FD7EBAA2DE54"
+},
+{
+cssPosition:"47,0,-1,0,186,39",
+dataProviderID:"value",
+horizontalAlignment:0,
+styleClass:"h1 text-foreground font-weight-bold",
+text:"Amount",
+transparent:true,
+typeid:7,
+uuid:"9F6DFEAC-616A-4650-9C33-82D5FDDDA41B"
+},
+{
+height:184,
+partType:5,
+typeid:19,
+uuid:"BBB356B0-E444-4A82-9EA3-BACC1979E1BD"
+}
+],
+name:"chartOrderBase",
+navigatorID:"-1",
+onShowMethodID:"C6750DFD-6E53-49DD-9A96-82DE5B5B6D4E",
+showInMenu:true,
+size:"188,184",
+typeid:3,
+uuid:"73B793DD-49A2-418E-9BCE-80E531EE6686"

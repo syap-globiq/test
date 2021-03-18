@@ -1,0 +1,33 @@
+
+/**
+ * @param {JSEvent} event
+ *
+ * @protected
+ *
+ * @properties={typeid:24,uuid:"B7605E05-628F-452F-B5C4-648B58DF857B"}
+ */
+function onSave(event) {
+	// TODO Auto-generated method stub
+	var idx = foundset.newRecord(false); // add as last record
+	// foundset.newRecord(); // adds as first record
+	// foundset.newRecord(2); //adds as second record
+	if (idx >= 0) // returned index is -1 in case of failure
+	{
+		foundset.menu_name = menuName;
+		foundset.menu_price = menuPrice;
+		databaseManager.startTransaction();
+		databaseManager.saveData(foundset);
+		databaseManager.commitTransaction();
+		var ok = plugins.dialogs.showInfoDialog("Message", "Menu saved successfully", "OK");
+		if (ok) {
+			menuName = "";
+			menuPrice = 0;
+			application.output("Menu item added");
+		}
+		
+		
+		// when adding at the end of the foundset, the returned index
+		// corresponds with the size of the foundset
+	}
+
+}

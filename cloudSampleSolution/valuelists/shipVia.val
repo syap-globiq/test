@@ -1,0 +1,10 @@
+addEmptyValue:1,
+customValues:"AUTO|1\
+TRAIN|2\
+SHIP|3\
+AIRPLANE|4",
+displayValueType:12,
+name:"shipVia",
+realValueType:4,
+typeid:34,
+uuid:"EE397070-5A81-4A99-A9C0-539F6100B5BF"

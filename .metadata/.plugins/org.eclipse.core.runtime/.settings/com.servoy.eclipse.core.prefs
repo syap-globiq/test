@@ -1,0 +1,4 @@
+SERVOY_ACTIVE_PROJECT=clinicInfoSys
+activatedPerspectives/com.servoy.eclipse.ui.DesignPerspective=false
+activatedPerspectives/org.eclipse.debug.ui.DebugPerspective=false
+eclipse.preferences.version=1

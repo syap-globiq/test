@@ -1,0 +1,39 @@
+
+/**
+ * Callback method when form is (re)loaded.
+ *
+ * @param {JSEvent} event the event that triggered the action
+ *
+ * @protected
+ *
+ * @properties={typeid:24,uuid:"430818B3-E597-49B8-BC2E-ACCBF5334B31"}
+ */
+function onLoad(event) {
+	// TODO Auto-generated method stub
+	databaseManager.setAutoSave(false);
+}
+
+/**
+ * @param {JSEvent} event
+ *
+ * @protected
+ *
+ * @properties={typeid:24,uuid:"7CA1A85E-F99D-46C1-A76A-6CFE95605A60"}
+ */
+function onSave(event) {
+	// TODO Auto-generated method stub
+	databaseManager.setAutoSave(true);
+}
+
+/**
+ * @param {JSEvent} event
+ *
+ * @protected
+ *
+ * @properties={typeid:24,uuid:"E524EA49-0E41-4F5F-80DA-2B60E237B340"}
+ */
+function onClose(event) {
+	// TODO Auto-generated method stub
+	var editWindow = application.getWindow(editForm);
+	editWindow.destroy();
+}

@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+deleteRelatedRecords:true,
+encapsulation:2,
+foreignDataSource:"db:/svy_security/users",
+items:[
+{foreignColumnName:"tenant_name",primaryDataProviderID:"tenant_name",typeid:23,uuid:"8B858A42-A167-4398-A13E-8E49C57FF6A5"}
+],
+joinType:1,
+name:"tenants_to_users",
+primaryDataSource:"db:/svy_security/tenants",
+typeid:22,
+uuid:"E7547359-B8C4-4FC7-8A96-B589D43010A5"

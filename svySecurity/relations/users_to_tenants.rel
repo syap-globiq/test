@@ -1,0 +1,10 @@
+encapsulation:2,
+foreignDataSource:"db:/svy_security/tenants",
+items:[
+{foreignColumnName:"tenant_name",primaryDataProviderID:"tenant_name",typeid:23,uuid:"C2147F91-1469-4763-B310-B14150EF74C7"}
+],
+joinType:1,
+name:"users_to_tenants",
+primaryDataSource:"db:/svy_security/users",
+typeid:22,
+uuid:"5E415626-971D-41AF-9421-A6B78EF1E4F4"

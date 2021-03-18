@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="SolutionExplorerView.orientation" value="2"/>
+	<item key="SolutionExplorerView.ratio512" value="500"/>
+	<item key="SolutionExplorerView.useOpenAsDefaultAction" value="true"/>
+	<item key="SolutionExplorerView.showInheritedMethods" value="true"/>
+	<item key="SolutionExplorerView.includeEntriedFromModules" value="false"/>
+	<item key="lastDebugCommandId" value="com.servoy.eclipse.ui.StartNGClient"/>
+	<item key="ShowForms" value="false"/>
+	<item key="ShowMethods" value="false"/>
+	<item key="ShowVariables" value="false"/>
+	<item key="ShowTables" value="false"/>
+	<item key="ShowCalculations" value="false"/>
+	<item key="ShowElements" value="false"/>
+	<item key="ShowRelations" value="false"/>
+	<item key="ShowValuelist" value="false"/>
+	<item key="ShowScopes" value="false"/>
+	<item key="ShowStatusLine" value="true"/>
+	<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode UUID=&quot;A2BD1ED2-F372-477C-BFF5-0CED1A69BDD9&quot;/&gt;&#x0D;&#x0A;&lt;infoNode datasource=&quot;db:/example_data/customers&quot;/&gt;&#x0D;&#x0A;&lt;infoNode datasource=&quot;db:/example_data/orders&quot;/&gt;&#x0D;&#x0A;&lt;infoNode datasource=&quot;db:/example_data/products&quot;/&gt;&#x0D;&#x0A;&lt;infoNode datasource=&quot;db:/clinic_db/patient&quot;/&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
+	<section name="NewSolutionWizard">
+		<item key="sol_is_advanced_user" value="true"/>
+		<item key="sol_selected_solutions" value="security utils search navigation "/>
+		<item key="sol_solution_type" value="1024"/>
+		<item key="sol_no_resource_project" value="false"/>
+		<item key="sol_resource_project_name" value="servoy_resources"/>
+		<item key="sol_should_add_default_theme" value="true"/>
+	</section>
+	<section name="serclipseDialogs">
+		<section name="NewSolutionWizard">
+			<item key="DIALOG_X_ORIGIN" value="610"/>
+			<item key="DIALOG_Y_ORIGIN" value="99"/>
+			<item key="DIALOG_WIDTH" value="716"/>
+			<item key="DIALOG_HEIGHT" value="857"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+			<item key="tray_open" value="true"/>
+		</section>
+		<section name="newFormWizard">
+			<item key="CONFIGURATION_SELECTION" value="_"/>
+			<item key="treePatternFilterMode" value="1"/>
+			<item key="ADVANCED_MODE_SETTING" value="true"/>
+		</section>
+		<section name="NewFormWizard">
+			<item key="DIALOG_X_ORIGIN" value="348"/>
+			<item key="DIALOG_Y_ORIGIN" value="11"/>
+			<item key="DIALOG_WIDTH" value="935"/>
+			<item key="DIALOG_HEIGHT" value="819"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+			<item key="tray_open" value="true"/>
+		</section>
+		<section name="serverTableDialog">
+			<item key="treePatternFilterMode" value="1"/>
+			<item key="DIALOG_X_ORIGIN" value="824"/>
+			<item key="DIALOG_Y_ORIGIN" value="251"/>
+			<item key="DIALOG_WIDTH" value="288"/>
+			<item key="DIALOG_HEIGHT" value="416"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+		<section name="methodDialog">
+			<item key="treePatternFilterMode" value="1"/>
+			<item key="DIALOG_X_ORIGIN" value="805"/>
+			<item key="DIALOG_Y_ORIGIN" value="286"/>
+			<item key="DIALOG_WIDTH" value="326"/>
+			<item key="DIALOG_HEIGHT" value="364"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+		<section name="dataProviderDialog">
+			<item key="treePatternFilterMode" value="1"/>
+			<item key="DIALOG_X_ORIGIN" value="990"/>
+			<item key="DIALOG_Y_ORIGIN" value="215"/>
+			<item key="DIALOG_WIDTH" value="326"/>
+			<item key="DIALOG_HEIGHT" value="439"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+		<section name="Select form dialog">
+			<item key="treePatternFilterMode" value="1"/>
+			<item key="DIALOG_X_ORIGIN" value="854"/>
+			<item key="DIALOG_Y_ORIGIN" value="284"/>
+			<item key="DIALOG_WIDTH" value="228"/>
+			<item key="DIALOG_HEIGHT" value="367"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+		<section name="formatDialog">
+			<item key="DIALOG_X_ORIGIN" value="1018"/>
+			<item key="DIALOG_Y_ORIGIN" value="244"/>
+			<item key="DIALOG_WIDTH" value="547"/>
+			<item key="DIALOG_HEIGHT" value="596"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+		<section name="parentFormDialog">
+			<item key="treePatternFilterMode" value="1"/>
+			<item key="DIALOG_X_ORIGIN" value="824"/>
+			<item key="DIALOG_Y_ORIGIN" value="251"/>
+			<item key="DIALOG_WIDTH" value="288"/>
+			<item key="DIALOG_HEIGHT" value="416"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+	<section name="DialogBoundsSettings">
+		<item key="DIALOG_HEIGHT" value="500"/>
+		<item key="DIALOG_WIDTH" value="600"/>
+		<item key="DIALOG_X_ORIGIN" value="668"/>
+		<item key="DIALOG_Y_ORIGIN" value="195"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>

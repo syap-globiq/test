@@ -1,0 +1,69 @@
+
+
+/**
+ * @properties={typeid:24,uuid:"5669126A-098B-4792-828D-3C661885E18A"}
+ */
+function validate(){
+	var validationMarkers = [];
+	
+	/** @type {Function} */
+	var validationHandler = foundset['validate'];
+	if (validationHandler) {
+		validationMarkers = validationHandler();
+	}
+	updateUI();
+	return validationMarkers.length > 0;
+}
+
+
+/**
+ * @properties={typeid:24,uuid:"9C3F52DF-AC97-466B-84DB-36ED7C893AC9"}
+ */
+function updateUI(){
+	var messages = [];
+	
+	for(var i in elements.allnames) {
+		var name = elements.allnames[i];
+		var e = elements[name];
+		var field = e;
+		if (!field.getDataProviderID) continue;
+		
+		var marker = getMarker(field);
+		if (marker) {
+			field.addStyleClass(INVALID);
+			field.toolTipText = marker.message;
+			
+			//move callout bubble
+			var x = 400; //field.getLocationX() + field.getWidth() + 10;
+			var y = field.getLocationY();
+			elements.callout.setLocation(x,y);
+			
+			//collect messages
+			messages.push(marker.message);
+		} else {
+			field.removeStyleClass(INVALID);
+			field.toolTipText = '';
+		}
+		if (messages.length) {
+			callout = messages.join('<br>');
+			elements.callout.addStyleClass(VISIBLE);
+		} else {
+			
+		}
+	}
+}
+
+/**
+ * TODO generated, please specify type and doc for the params
+ * @param target
+ *
+ * @properties={typeid:24,uuid:"E5FDE520-BA48-4A6E-9D12-96190CC6B4AE"}
+ */
+function getMarker(target) {
+	for (var i in validationMarkers) {
+		var marker = validationMarkers[i];
+		if (marker.dataProviderID == target.getDataProviderID()){
+			return marker;
+		}
+	}
+}

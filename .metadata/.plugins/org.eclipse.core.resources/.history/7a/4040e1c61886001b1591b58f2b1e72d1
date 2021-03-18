@@ -1,0 +1,69 @@
+function onElementDataChange(oldValue, newValue, event) {
+	// TODO Auto-generated method stub
+	validate();
+	return true
+}
+
+function validate(){
+	validationMarkers = [];
+	
+	var validationHandler = foundset['validate'];
+	if (validationHandler) {
+		validationMarkers = validationHandler();
+	}
+	updateUI();
+	return validationMarkers.length > 0;
+}
+function validate(){
+	validationMarkers = [];
+	
+	var validationHandler = foundset['validate'];
+	if (validationHandler) {
+		validationMarkers = validationHandler();
+	}
+	updateUI();
+	return validationMarkers.length > 0;
+}
+
+function updateUI(){
+	var messages = [];
+	
+	for(var i in elements.allnames) {
+		var name = elements.allnames[i];
+		var e = elements[name];
+		var field = e;
+		if (!field.getDataProviderID) continue;
+		
+		var marker = getMarker(field);
+		if (marker) {
+			field.addStyleClass(INVALID);
+			field.toolTipText = marker.message;
+			
+			//move callout bubble
+			var x = 400; //field.getLocationX() + field.getWidth() + 10;
+			var y = field.getLocationY();
+			elements.callout.setLocation(x,y);
+			
+			//collect messages
+			messages.push(marker.message);
+		} else {
+			field.removeStyleClass(INVALID);
+			field.toolTipText = '';
+		}
+		if (messages.length) {
+			callout = messages.join('<br>');
+			elements.callout.addStyleClass(VISIBLE);
+		} else {
+			
+		}
+	}
+}
+
+function getMarker(target) {
+	for (var i in validationMarkers) {
+		var marker = validationMarkers[i];
+		if (marker.dataProviderID == target.getDataProviderID()){
+			return marker;
+		}
+	}
+}

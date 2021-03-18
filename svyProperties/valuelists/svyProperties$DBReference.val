@@ -1,0 +1,13 @@
+addEmptyValue:1,
+customProperties:"lazyLoading:false",
+dataProviderID1:"property_type",
+dataSource:"db:/svy_security/svy_properties",
+displayValueType:12,
+encapsulation:2,
+name:"svyProperties$DBReference",
+realValueType:12,
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"DF0B0CBA-A714-420E-9480-D1E1702E7F6F",
+valueListType:1

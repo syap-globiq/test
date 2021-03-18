@@ -1,0 +1,11 @@
+encapsulation:2,
+foreignDataSource:"db:/svy_security/roles_permissions",
+items:[
+{foreignColumnName:"role_name",primaryDataProviderID:"scopes.svySecurityUX.UX_SELECTED_ROLE",typeid:23,uuid:"0CA455DE-8482-44F4-BD3F-39CD61377E6B"},
+{foreignColumnName:"permission_name",primaryDataProviderID:"permission_name",typeid:23,uuid:"5EAD18D6-0C66-4141-9B83-6526B28E4BD1"}
+],
+joinType:1,
+name:"permissions_to_roles_permissions_ux_selected_role",
+primaryDataSource:"db:/svy_security/permissions",
+typeid:22,
+uuid:"747EC484-E094-4B62-8426-960967CCF824"

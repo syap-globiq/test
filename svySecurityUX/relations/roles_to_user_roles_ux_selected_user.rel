@@ -1,0 +1,12 @@
+encapsulation:2,
+foreignDataSource:"db:/svy_security/user_roles",
+items:[
+{foreignColumnName:"tenant_name",primaryDataProviderID:"tenant_name",typeid:23,uuid:"20EAAC50-E99F-4F29-8796-94E89EA8D1B0"},
+{foreignColumnName:"role_name",primaryDataProviderID:"role_name",typeid:23,uuid:"38120E29-8AE3-4692-9F05-95092D1CE2B6"},
+{foreignColumnName:"user_name",primaryDataProviderID:"scopes.svySecurityUX.UX_SELECTED_USER",typeid:23,uuid:"7748D5D1-825C-4BBD-8251-4AEA60C237B2"}
+],
+joinType:1,
+name:"roles_to_user_roles_ux_selected_user",
+primaryDataSource:"db:/svy_security/roles",
+typeid:22,
+uuid:"CBAB0CA9-3912-414C-B23C-118E2FAB8A16"

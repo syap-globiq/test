@@ -1,0 +1,245 @@
+/* TODO remove with new release of 12Grid */
+.svy-popup-filter .flex-item[data-flex-basis="0"] {
+    flex-basis: 0;
+}
+
+/* TODO remove with next Servoy release */
+body > .ui-select-bootstrap.svy-popup-filter-select.open {
+	z-index: 9999;
+}
+
+.svy-popup-filter {
+	background-color: white;
+    border-radius: 10px;
+}
+
+.svy-popup-filter,
+.popup-filter-table-form {
+	border: 1px solid #e0e0e0;
+	border-top-width: 0px;
+	box-shadow: 0px 5px 5px #bbb;
+	overflow: hidden;
+}
+
+.svy-popup-filter > .row {
+	margin-right: 0;
+    margin-left: 0;
+}
+
+.svy-popup-filter-header,
+.svy-popup-filter-header .form-control {
+    height: 40px;
+    border: none;
+}
+
+.svy-popup-filter-header {
+	border-bottom: 1px solid #dbdbdb;
+	box-sizing: content-box;
+	position: relative;
+}
+
+.svy-popup-filter-header-text {
+	padding-left: 15px;	
+}
+
+.svy-popup-filter .svy-lookup-action-label {
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.svy-popup-filter .svy-layoutcontainer .btn-close {
+    position: absolute;
+    line-height: 24px;
+    top: 8px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.svy-popup-filter .svy-lookup-searchbox {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+/** For decorated windows */
+.svy-dialog.window .svy-popup-filter, 
+.svy-dialog.window .lookup-table-form {
+	border-bottom-width: 0px;
+}
+
+/**************************************
+*
+*  Select Filter
+*  
+***************************************/
+
+.svy-popup-filter .table-servoyextra-header-label {
+	padding-left: 5px;
+}
+
+.svy-popup-filter td div {
+	padding-left: 5px;
+}
+
+.svy-popup-filter .table-servoyextra-selected {
+	/* TODO why to use a default color different than table default and why to use important ?
+	background-color: #CCCCFF !important;
+	color: black !important; 
+	*/
+}
+
+/**************************************
+*
+*  Date Filter 
+*  
+***************************************/
+
+/** TODO should i move the sytling to theme-roller ? */
+.svy-popup-filter-date .bts-calendar-inline {
+	border: 1px solid #DBDBDB;
+}
+
+.svy-popup-filter-date .bts-calendar-inline .bootstrap-datetimepicker-widget thead {
+	background: #f6f7f9;
+	
+}
+
+.svy-popup-filter-date .bts-calendar-inline .bootstrap-datetimepicker-widget table th {
+	border-radius: 0;
+}
+
+.svy-popup-filter-date .bts-calendar-inline .datepicker tbody tr {
+    border-top: 1px solid #dbdbdb;
+}
+
+/* TODO should be a component property instead ?
+ hide the time picker */
+.svy-popup-filter-date .bts-calendar-inline li.picker-switch {
+	display: none;
+}
+
+/* .svy-popup-filter-date .bts-calendar-inline .datepicker tbody tr:last-child {
+    border-bottom: 1px solid #dbdbdb;
+} */
+
+.svy-popup-filter-date .bts-calendar-inline .datepicker tbody td {
+    border-left: 1px solid #dbdbdb;
+}
+.svy-popup-filter-date .bts-calendar-inline .datepicker tbody td:first-child {
+    border-left: 0;
+}
+
+/* Style disabled days */
+.svy-popup-filter-date .bts-calendar-inline .day.disabled {
+	opacity: 0.5;
+}
+
+/**************************************
+*
+*  Number Filter 
+*  
+***************************************/
+.svy-popup-filter-number .hr {
+	border: 0 solid #DBDBDB;
+    border-bottom-width: 1px;
+}
+
+.svy-popup-filter-number .flex-item {
+	
+}
+
+.svy-popup-filter-number .form-control {
+	background: transparent;
+	border: 0;
+	border-left: 1px solid #DBDBDB;
+	box-shadow: none;
+	border-radius: 0;
+}
+
+.svy-popup-filter-number .form-control[disabled] {
+	cursor: default;
+	border: 0;
+	color: transparent;
+}
+
+/**************************************
+*
+*  Check Filter 
+*  
+***************************************/
+.svy-popup-filter-check .hr {
+	border: 0 solid #DBDBDB;
+    border-bottom-width: 1px;
+}
+
+.svy-popup-filter-check .flex-item {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+/**************************************
+*
+*  Token Filter 
+*  
+***************************************/
+
+/* Reset row in token list */
+.svy-popup-filter-text .list-item > .row {
+	margin-right: 0;
+    margin-left: 0;
+}
+
+/* Token in list */
+.svy-popup-filter .svy-popup-filter-actions { 
+	padding: 15px;
+}
+
+.svy-popup-filter .svy-popup-filter-token { 
+	padding: 15px;
+	border-top: 1px solid #DBDBDB;
+}
+
+.svy-popup-filter .svy-popup-filter-token-icon {
+	cursor: pointer;
+}
+
+.svy-popup-filter .svy-popup-filter-token-text {
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+/***************************************
+ *
+ * Toolbar Filter 
+ *
+ ***************************************/
+.svy-toolbar-filter {
+	
+}
+
+.svy-toolbar-filter .list-item {
+	display: inline-block;
+}
+
+.svy-toolbar-filter .toolbar-filter-tag {
+	display: inline-flex;
+}
+
+.svy-toolbar-filter .toolbar-filter-tag  > .btn:first-child {
+	max-width: 220px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.svy-toolbar-filter .toolbar-filter-tag-text {
+}
+
+.svy-toolbar-filter .toolbar-filter-tag-text {
+	font-weight: bold;
+}
+
+.svy-toolbar-filter .toolbar-filter-tag-icon {
+	margin-left: 5px;
+}

@@ -1,0 +1,11 @@
+customProperties:"lazyLoading:false",
+dataProviderID1:"contacttitle",
+dataSource:"db:/example_data/suppliers",
+displayValueType:12,
+name:"supplierContactTitles",
+realValueType:12,
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"BB100B54-4C43-4ADD-AC1C-15ED3E69AD14",
+valueListType:1

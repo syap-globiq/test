@@ -1,0 +1,12 @@
+
+/**
+ * @param {JSEvent} event
+ *
+ * @protected
+ *
+ * @properties={typeid:24,uuid:"EC213A12-A380-49E8-8164-1FB7A84CCBA2"}
+ */
+function onDelete(event) {
+	// TODO Auto-generated method stub
+	foundset.deleteRecord();
+}

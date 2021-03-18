@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry excluding=".stp/|medias/" kind="src" path=""/>
+	<buildpathentry exported="true" kind="prj" path="/cloudSampleModel"/>
+	<buildpathentry exported="true" kind="prj" path="/svyNavigationUX"/>
+	<buildpathentry exported="true" kind="prj" path="/svySecurity"/>
+	<buildpathentry exported="true" kind="prj" path="/svySecurityUX"/>
+</buildpath>

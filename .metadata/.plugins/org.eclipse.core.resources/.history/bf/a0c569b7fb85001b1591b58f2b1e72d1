@@ -1,0 +1,16 @@
+customProperties:"formComponent:false,\
+useCssPosition:true",
+encapsulation:108,
+items:[
+{
+height:480,
+partType:5,
+typeid:19,
+uuid:"CA3EC245-452B-44CC-BE78-F008DCD192CE"
+}
+],
+name:"validationMain",
+navigatorID:"-1",
+showInMenu:true,
+typeid:3,
+uuid:"60E753AE-AEBA-4D1F-A9E7-878E11EA50D3"

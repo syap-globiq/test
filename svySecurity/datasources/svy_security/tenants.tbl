@@ -1,0 +1,4 @@
+dataSource:"db:/svy_security/tenants",
+onAfterDeleteMethodID:"FA620835-B83C-4F75-B5BC-0A83EBE50D87",
+typeid:39,
+uuid:"8B8FD443-F309-4992-ABF9-8CDF38185BAF"

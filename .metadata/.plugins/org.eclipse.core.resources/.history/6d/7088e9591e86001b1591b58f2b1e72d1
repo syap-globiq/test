@@ -1,0 +1,78 @@
+/**
+ * TODO generated, please specify type and doc for the params
+ * @param {RuntimeTextField} [element] validate only the dataprovider linked to the given element when set
+ * @protected 
+ * @return {Array<JSRecordMarker>} It will return an array of JSRecordMarker when the record had validation problems
+ * @properties={typeid:24,uuid:"17318A3C-F3AE-4ABC-8E63-5E9D7C196D7A"}
+ */
+function validate(element) {
+	var dataprovider = element ? element.getDataProviderID() : null;
+	// validate the edited records
+	var markers = scopes.svyValidationUtils.validateEditedRecords(null, LOGGINGLEVEL.ERROR, dataprovider);
+	if (dataprovider) {
+		// filter markers having element's dataprovider
+		markers = scopes.svyValidationUtils.getMarkersWithDataprovider(markers, dataprovider);
+	}
+	// invalid if any error marker
+	var isValid = markers.length ? false : true;
+	
+	if (element) {		
+		if (isValid) {
+			// clear validation error, if any
+			clearValidationError(element);
+		} else {
+			// show validation error	
+			updateValidationError(markers[0], element);
+		}
+	} else {
+		
+		if (isValid) {
+			// clear all validation errors
+			clearValidationErrors();
+		} else {
+			// show all validation errors
+			updateValidationErrors(markers);
+		}
+	}
+
+	return markers;
+}
+/**
+ * TODO generated, please specify type and doc for the params
+ * @protected 
+ * @param {Array<JSRecordMarker>} errorMarkers
+ *
+ * @properties={typeid:24,uuid:"A46D187C-E957-4ED0-8CCB-D2A6C6E0C7F2"}
+ */
+function updateValidationErrors(errorMarkers) {
+	// clear all validation errors
+	clearValidationErrors();
+	
+	if (errorMarkers) {
+		
+		// get the error markers
+		for (var i = 0; i < errorMarkers.length; i++) {
+	
+			// update the UI showing validation error
+			var errorMarker = errorMarkers[i];
+			
+			// get the element linked to the error marker
+			var element = scopes.svyValidationUtils.getMarkerElement(controller.getName(), errorMarker);
+			updateValidationError(errorMarker, element);
+		}
+		
+		// show the error message
+		var errorMsg = scopes.svyValidationUtils.getErrorMessages(foundset.getSelectedRecord());
+		plugins.webnotificationsToastr.error(errorMsg);
+	}
+}
+
+function updateValidationError(marker, element) {
+	if (element) {
+		
+		// show error as tooltip
+		element.toolTipText = marker.message;
+		// style the element as invalid input
+		element.addStyleClass("form-invalid");
+	}
+}

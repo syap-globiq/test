@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+encapsulation:2,
+foreignDataSource:"db:/svy_security/sessions",
+initialSort:"session_start desc",
+items:[
+{foreignColumnName:"tenant_name",primaryDataProviderID:"tenant_name",typeid:23,uuid:"99408767-E03E-473B-98B2-659E06E93942"}
+],
+joinType:1,
+name:"tenants_to_sessions",
+primaryDataSource:"db:/svy_security/tenants",
+typeid:22,
+uuid:"FC32691E-64D8-494E-A7E5-CD4B96F53417"

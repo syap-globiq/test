@@ -1,0 +1,16 @@
+[
+{
+encapsulation:0,
+mimeType:"text/css",
+name:"custom_servoy_theme_properties.less",
+typeid:37,
+uuid:"82060431-B191-4459-969D-363B76E2B0F0"
+},
+{
+encapsulation:0,
+mimeType:"text/css",
+name:"posCoffee.less",
+typeid:37,
+uuid:"6EF10D15-1949-4593-AE22-96AF03B05594"
+}
+]

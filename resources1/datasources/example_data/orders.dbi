@@ -1,0 +1,112 @@
+columns:[
+{
+allowNull:false,
+autoEnterSubType:0,
+autoEnterType:2,
+creationOrderIndex:0,
+dataType:4,
+flags:1,
+name:"orderid",
+titleText:"Order ID"
+},
+{
+allowNull:true,
+creationOrderIndex:1,
+dataType:1,
+length:5,
+name:"customerid",
+titleText:"Customer"
+},
+{
+allowNull:true,
+creationOrderIndex:2,
+dataType:4,
+name:"employeeid",
+titleText:"Employee"
+},
+{
+allowNull:true,
+creationOrderIndex:7,
+dataType:4,
+name:"freight",
+titleText:"Freight"
+},
+{
+allowNull:true,
+creationOrderIndex:3,
+dataType:93,
+name:"orderdate",
+titleText:"Order date"
+},
+{
+allowNull:true,
+creationOrderIndex:4,
+dataType:93,
+name:"requireddate",
+titleText:"Required date"
+},
+{
+allowNull:true,
+creationOrderIndex:9,
+dataType:12,
+length:60,
+name:"shipaddress",
+titleText:"Ship address"
+},
+{
+allowNull:true,
+creationOrderIndex:10,
+dataType:12,
+length:15,
+name:"shipcity",
+titleText:"Ship city"
+},
+{
+allowNull:true,
+creationOrderIndex:13,
+dataType:12,
+length:15,
+name:"shipcountry",
+titleText:"Ship country"
+},
+{
+allowNull:true,
+creationOrderIndex:8,
+dataType:12,
+length:40,
+name:"shipname",
+titleText:"Ship company"
+},
+{
+allowNull:true,
+creationOrderIndex:5,
+dataType:93,
+name:"shippeddate",
+titleText:"Shipped date"
+},
+{
+allowNull:true,
+creationOrderIndex:12,
+dataType:12,
+length:10,
+name:"shippostalcode",
+titleText:"Ship postal code"
+},
+{
+allowNull:true,
+creationOrderIndex:11,
+dataType:12,
+length:15,
+name:"shipregion",
+titleText:"Ship region"
+},
+{
+allowNull:true,
+creationOrderIndex:6,
+dataType:4,
+name:"shipvia",
+titleText:"Ship via"
+}
+],
+name:"orders",
+tableType:0
